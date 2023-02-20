@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">Youtube Video Downloader App</div>
+    <div class="form">
+      <div class="form-element">
+        <label for="videoURL">Enter Youtube Video Link</label>
+        <input type="text" id="videoURL" />
+      </div>
+      <div class="form-element">
+        <button id="get-video-info-btn">Download</button>
+      </div>
+      <!-- <div class="form-element">
+        <button id="get-video-info-btn-playlist">Download Playlist</button>
+      </div> -->
+    </div>
+    <div class="video-data">
+      <div class="data">
+        <div class="thumbnail">
+          <img src="" alt="" />
+        </div>
+        <div class="info">
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            modi quos possimus nulla illo amet iure
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            modi quos possimus nulla illo amet iure, molestiae eos consequuntur
+            magni placeat rerum eum inventore assumenda impedit ratione nobis
+            cupiditate! Quisquam.
+          </p>
+        </div>
+      </div>
+      <div class="controls">
+        <input type="hidden" id="video-url" />
+        <select name="" id="download-options"></select>
+        <button id="download-btn">Download</button>
+      </div>
+    </div>
+    <script src="getData.js"></script>
+  </body>
+</html>
